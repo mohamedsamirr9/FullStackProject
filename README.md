@@ -1,94 +1,59 @@
-FullStack E-commerce Project
+# 🛒 Full-Stack E-commerce Web Application (In Progress)
 
-A Full Stack E-commerce Web Application built using ASP.NET WebAPI, Angular, and SQL Server.
-The project demonstrates building a scalable web application with a clear separation between frontend and backend.
+A full-stack e-commerce application built with **Angular** for the frontend and **ASP.NET WebAPI** for the backend.  
+This project is structured for maintainability, scalability, and future enhancements.
 
-🚀 Technologies Used
-Frontend
+---
 
-Angular
+## 🚀 Technologies
 
-HTML
+**Frontend:** Angular, HTML, CSS, Bootstrap, TypeScript  
+**Backend:** ASP.NET WebAPI, Entity Framework Core, RESTful APIs, JWT Authentication  
+**Database:** Microsoft SQL Server, T-SQL  
 
-CSS
+---
 
-Bootstrap
+## 📂 Project Structure
 
-TypeScript
+FullStackProject/
+├── frontend/ # Angular application
+└── backend/ # ASP.NET WebAPI
 
-Backend
+---
 
-ASP.NET WebAPI
+## 🔑 Features
 
-Entity Framework Core
+- User authentication & authorization using **JWT** (JSON Web Tokens)  
+- Product management (CRUD operations)  
+- Shopping cart functionality  
+- Responsive UI for multiple devices  
+- Structured layers in backend: **Repositories**, **DTOs**, **Services**, **Controllers**  
+- Organized project folders for clear separation of concerns and scalability  
 
-RESTful APIs
+---
 
-JWT Authentication
+## 💻 Other Projects
 
-Database
+### ☕ Coffee Shop Management System
+- Full-stack web application with N-Tier Architecture (Presentation → Business Logic → Data Access)  
+- Product & order management (CRUD)  
+- Responsive UI with HTML, CSS, JavaScript, Bootstrap  
+- Integrated SQL Server via Entity Framework Core & T-SQL  
 
-Microsoft SQL Server
+### 📈 PriceWise – Graduation Project
+- Web app for tracking product prices across e-commerce platforms (Amazon, Noon)  
+- Frontend built with React.js and CSS  
+- Integrated with custom backend APIs for product tracking  
 
-T-SQL
+---
 
-Tools
+## 🔗 Links
 
-Git & GitHub
+- GitHub Repo: [FullStackProject](https://github.com/mohamedsamirr9/FullStackProject)  
+- LinkedIn: [Mohamed Samir](https://www.linkedin.com/in/mohamed-samir/)  
 
-Visual Studio
+---
 
-VS Code
+## 📝 Notes
 
-Postman
-
-📂 Project Structure
-FullStackProject
-│
-├── frontend
-│   └── Angular Application
-│
-└── backend
-    └── ASP.NET WebAPI
-
-🔑 Features
-
-User Authentication using JWT
-
-Products Management (CRUD)
-
-Categories Management
-
-Shopping Cart functionality
-
-RESTful API integration
-
-Responsive UI
-
-⚙️ How to Run the Project
-1️⃣ Backend
-cd backend/WebApiProject
-dotnet restore
-dotnet run
-
-2️⃣ Frontend
-cd frontend
-npm install
-ng serve
-
-
-Open:
-
-http://localhost:4200
-
-📌 Project Status
-
-🚧 In Progress
-More features will be added such as orders, payments, and admin dashboard.
-
-👨‍💻 Author
-
-Mohamed Samir
-Full Stack .NET Developer
-
-LinkedIn: https://www.linkedin.com/in/mohamed-samir-547025382/
+This project is still in progress and continuously updated with new features and improvements.
