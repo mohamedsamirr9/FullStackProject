@@ -1,0 +1,62 @@
+<div class="page-content">
+  <div class="form-v5-content">
+    <form class="form-detail" [formGroup]="formRegister" (ngSubmit)="onSubmit()">
+      <h2>Login Account Form</h2>
+      <div class="form-row">
+        <label for="username">Username</label>
+        <input
+          type="text"
+          name="username"
+          class="input-text"
+          placeholder="Your Username"
+          formControlName="username"
+          [class.is-valid]="
+            formRegister.get('username')?.valid && formRegister.get('username')?.touched
+          "
+        />
+
+        @if (formRegister.get('username')?.invalid && formRegister.get('username')?.touched) {
+          <div class="text-danger">Username is required and must be at least 3 characters</div>
+        }
+      </div>
+
+      <div class="form-row">
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          class="input-text"
+          placeholder="Your Password"
+          formControlName="password"
+          required
+          [class.is-valid]="
+            formRegister.get('password')?.valid && formRegister.get('password')?.touched
+          "
+        />
+        @if (formRegister.get('password')?.invalid && formRegister.get('password')?.touched) {
+          <div class="text-danger">
+            Password is required and Password must be at least 6 characters
+          </div>
+        }
+        <i class="fas fa-lock"></i>
+      </div>
+
+      @if (errMessage) {
+        <div class="text-danger text-center mt-3">{{ errMessage }}</div>
+      }
+      <div class="form-row-last d-flex justify-content-between">
+        <input
+          type="submit"
+          class="register"
+          [disabled]="isLoading"
+          [value]="isLoading ? 'Logging in...' : 'Login'"
+        />
+        <input type="button" class="register" value="Clear" (click)="onReset()" />
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- formControlName="email"
+          [class.is-valid]="formRegister.get('email')?.valid && formRegister.get('email')?.touched" -->
+<!-- [disabled]="formRegister.invalid" -->

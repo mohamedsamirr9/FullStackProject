@@ -1,0 +1,50 @@
+<div class="container mt-5">
+  @if (isLoading) {
+    <div class="text-center my-5">
+      <div class="spinner-border text-primary"></div>
+    </div>
+  } @else {
+    <h2 class="mb-4">{{ categoryName ? categoryName : 'All Products' }}</h2>
+    <div class="row">
+      @for (product of products; track $index) {
+        <div class="col-md-4">
+          <div class="single-product">
+            <div class="product-image">
+              <img [src]="product.imageUrl" alt="#" />
+              <div class="button">
+                <a routerLink="/products/{{ product.id }}" class="btn"
+                  ><i class="lni lni-cart"></i> Add to Cart</a
+                >
+              </div>
+            </div>
+            <div class="product-info">
+              <span class="category">{{ product.category }}</span>
+              <h4 class="title">
+                <a routerLink="/products/{{ product.id }}">{{ product.name }}</a>
+              </h4>
+              <ul class="review">
+                <li><i class="lni lni-star-filled"></i></li>
+                <li><i class="lni lni-star-filled"></i></li>
+                <li><i class="lni lni-star-filled"></i></li>
+                <li><i class="lni lni-star-filled"></i></li>
+                <li><i class="lni lni-star-filled"></i></li>
+                <li><span>5.0 Review(s)</span></li>
+              </ul>
+              <div class="price">
+                <span>${{ product.price }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      }
+    </div>
+    <div class="pagination d-flex justify-content-center my-4">
+      <button (click)="firstPage()" [disabled]="page === 1">First</button>
+
+      @for (p of pages; track $index) {
+        <button (click)="goToPage(p)" [class.active]="page === p">{{ p }}</button>
+      }
+      <button (click)="lastPage()" [disabled]="page === totalPages">Last</button>
+    </div>
+  }
+</div>

@@ -1,0 +1,128 @@
+<div class="page-content">
+  <div class="form-v5-content">
+    <form class="form-detail" [formGroup]="formRegister" (ngSubmit)="onSubmit()">
+      <h2>Register Account Form</h2>
+      <div class="form-row">
+        <label for="first-name" class="form-label">First Name</label>
+        <input
+          type="text"
+          name="firstName"
+          class="form-control mb-2"
+          placeholder="Your Name"
+          formControlName="firstName"
+          [class.is-valid]="
+            formRegister.get('firstName')?.valid && formRegister.get('firstName')?.touched
+          "
+        />
+        @if (formRegister.get('firstName')?.invalid && formRegister.get('firstName')?.touched) {
+          <div class="text-danger">First Name is required and must be at least 5 characters</div>
+        }
+        <i class="fas fa-user"></i>
+      </div>
+      <div class="form-row">
+        <label for="last-name" class="form-label">Last Name</label>
+        <input
+          type="text"
+          name="lastName"
+          class="form-control mb-2"
+          placeholder="Your Last Name"
+          formControlName="lastName"
+          [class.is-valid]="
+            formRegister.get('lastName')?.valid && formRegister.get('lastName')?.touched
+          "
+        />
+        @if (formRegister.get('lastName')?.invalid && formRegister.get('lastName')?.touched) {
+          <div class="text-danger">Last Name is required and must be at least 5 characters</div>
+        }
+        <i class="fas fa-user"></i>
+      </div>
+
+      <div class="form-row">
+        <label for="your-email" class="form-label">Email</label>
+        <input
+          type="text"
+          name="email"
+          class="form-control"
+          placeholder="Your Email"
+          formControlName="email"
+          [class.is-valid]="formRegister.get('email')?.valid && formRegister.get('email')?.touched"
+        />
+        <i class="fas fa-envelope"></i>
+        @if (formRegister.get('email')?.invalid && formRegister.get('email')?.touched) {
+          <div class="text-danger">Email is required and must be valid</div>
+        }
+      </div>
+      <div class="form-row">
+        <label for="password" class="form-label">Password</label>
+        <input
+          type="password"
+          name="password"
+          class="form-control"
+          placeholder="Your Password"
+          formControlName="password"
+          required
+          [class.is-valid]="
+            formRegister.get('password')?.valid && formRegister.get('password')?.touched
+          "
+        />
+        @if (formRegister.get('password')?.invalid && formRegister.get('password')?.touched) {
+          <div class="text-danger">
+            Password is required and Password must be at least 6 characters
+          </div>
+        }
+        <i class="fas fa-lock"></i>
+      </div>
+      <div class="form-row">
+        <label for="confirm-password" class="form-label">Confirm Password</label>
+        <input
+          type="password"
+          name="confirmPassword"
+          class="form-control"
+          placeholder="Confirm Password"
+          formControlName="confirmPassword"
+          required
+          [class.is-valid]="
+            formRegister.get('confirmPassword')?.valid &&
+            formRegister.get('confirmPassword')?.touched
+          "
+        />
+        @if (
+          formRegister.get('confirmPassword')?.invalid &&
+          formRegister.get('confirmPassword')?.touched
+        ) {
+          <div class="text-danger">password is required and must be match</div>
+        }
+        <i class="fas fa-lock"></i>
+      </div>
+      @if (errMessage) {
+        <div class="text-danger text-center mt-3">{{ errMessage }}</div>
+      }
+      <div class="form-row-last d-flex justify-content-between">
+        <input
+          type="submit"
+          class="register"
+          [value]="isLoading ? 'Registering...' : 'Register'"
+          [disabled]="formRegister.invalid || isLoading"
+        />
+        <input type="button" class="register" value="Clear" (click)="onReset()" />
+      </div>
+    </form>
+    @if (submittedData) {
+      <div class="card mt-4 shadow">
+        <div class="card-body">
+          <h4 class="card-title mb-3">User Data</h4>
+
+          <p><strong>Name:</strong> {{ submittedData.name }}</p>
+          <p><strong>Email:</strong> {{ submittedData.email }}</p>
+
+          <p><strong>Phones:</strong></p>
+          <ul>
+            @for (phone of submittedData.phones; track $index) {
+              <li>{{ phone }}</li>
+            }
+          </ul>
+        </div>
+      </div>
+    }
+  </div>
+</div>
