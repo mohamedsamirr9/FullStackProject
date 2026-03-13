@@ -32,18 +32,7 @@ FullStackProject/
 
 ---
 
-## 💻 Other Projects
 
-### ☕ Coffee Shop Management System
-- Full-stack web application with N-Tier Architecture (Presentation → Business Logic → Data Access)  
-- Product & order management (CRUD)  
-- Responsive UI with HTML, CSS, JavaScript, Bootstrap  
-- Integrated SQL Server via Entity Framework Core & T-SQL  
-
-### 📈 PriceWise – Graduation Project
-- Web app for tracking product prices across e-commerce platforms (Amazon, Noon)  
-- Frontend built with React.js and CSS  
-- Integrated with custom backend APIs for product tracking  
 
 ---
 
