@@ -4,7 +4,11 @@
       <div class="spinner-border text-primary"></div>
     </div>
   } @else {
-    <h2 class="mb-4">{{ categoryName ? categoryName : 'All Products' }}</h2>
+    @if (seaarchTerm) {
+      <h2 class="mb-4">Search results for "{{ seaarchTerm }}"</h2>
+    } @else {
+      <h2 class="mb-4">{{ categoryName ? categoryName : 'All Products' }}</h2>
+    }
     <div class="row">
       @for (product of products; track $index) {
         <div class="col-md-4">

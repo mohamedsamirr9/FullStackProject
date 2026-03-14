@@ -59,25 +59,29 @@
           <div class="main-menu-search">
             <!-- navbar search start -->
             <div class="navbar-search search-style-5">
-              <div class="search-select">
-                <div class="select-position">
-                  <select id="select1">
-                    <option selected>All</option>
-                    <option value="1">option 01</option>
-                    <option value="2">option 02</option>
-                    <option value="3">option 03</option>
-                    <option value="4">option 04</option>
-                    <option value="5">option 05</option>
-                  </select>
-                </div>
-              </div>
               <div class="search-input">
-                <input type="text" placeholder="Search" />
+                <input
+                  type="text"
+                  placeholder="Search"
+                  [(ngModel)]="searchTerm"
+                  (keyup)="liveSearch()"
+                />
               </div>
               <div class="search-btn">
-                <button><i class="lni lni-search-alt"></i></button>
+                <button (click)="search()"><i class="lni lni-search-alt"></i></button>
               </div>
             </div>
+            @if (results.length > 0) {
+              <ul class="search-results">
+                @for (product of results; track product.id) {
+                  <li (click)="goToProduct(product.id)">
+                    <img [src]="product.imageUrl" alt="product" class="result-image" />
+
+                    {{ product.name }}
+                  </li>
+                }
+              </ul>
+            }
             <!-- navbar search Ends -->
           </div>
           <!-- End Main Menu Search -->

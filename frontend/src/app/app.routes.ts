@@ -22,6 +22,10 @@ export const routes: Routes = [
     component: ProductsLocal,
   },
   {
+    path: 'products/:searchTerm/:page/:pageSize',
+    component: ProductsLocal,
+  },
+  {
     path: 'products/:id',
     component: ProductDetails,
   },

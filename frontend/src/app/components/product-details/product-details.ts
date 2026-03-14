@@ -24,10 +24,12 @@ export class ProductDetails implements OnInit {
     private cartService: CartService,
   ) {}
   ngOnInit(): void {
-    this.getProduct();
+    this.route.paramMap.subscribe((params) => {
+      const id = Number(params.get('id'));
+      this.getProduct(id);
+    });
   }
-  getProduct() {
-    const id = Number(this.route.snapshot.paramMap.get('id'));
+  getProduct(id: number) {
     this.productsService.getProduct(id).subscribe({
       next: (result) => {
         console.log(result);

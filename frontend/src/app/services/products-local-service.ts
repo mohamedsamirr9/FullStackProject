@@ -20,4 +20,7 @@ export class ProductsLocalService {
   getProductsByCategoryByPage(id: number, page: number, pageSize: number): Observable<any> {
     return this.httpClient.get<any>(`${API_URLS2.getProductsByCategory}/${id}/${page}/${pageSize}`);
   }
+  searchProductsByName(name: string, page: number, pageSize: number): Observable<any> {
+    return this.httpClient.get<any>(`${API_URLS2.searchProductsByName}/${name}/${page}/${pageSize}`);
+  }
 }

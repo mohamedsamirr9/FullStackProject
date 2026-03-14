@@ -15,6 +15,7 @@ export const API_URLS = {
 export const API_URLS2 = {
   getProducts: `${domain2}Product`,
   getProduct: `${domain2}Product`,
+  searchProductsByName: `${domain2}Product`,
   getCategories: `${domain2}Category`,
   getProductsByCategory: `${domain2}Product/category`,
   login: `${domain2}Auth/login`,

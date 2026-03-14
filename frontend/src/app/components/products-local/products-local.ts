@@ -14,6 +14,7 @@ export class ProductsLocal implements OnInit {
   products: any[] = [];
   totalPages: number = 0;
   categoryName: string = '';
+  seaarchTerm: string = '';
   isLoading: boolean = false;
   start: number = 1;
   end: number = 0;
@@ -27,10 +28,16 @@ export class ProductsLocal implements OnInit {
   ) {}
   ngOnInit(): void {
     this.route.paramMap.subscribe((params) => {
+      this.seaarchTerm = params.get('searchTerm') || '';
+      if (this.seaarchTerm) {
+        this.searchProductsByName(this.seaarchTerm);
+        return;
+      }
       const categoryId = params.get('id');
       this.categoryName = params.get('name') || '';
       if (categoryId) {
         this.getProductsByCategoryByPage(+categoryId);
+        return;
       } else {
         this.getProductsByPage();
       }
@@ -45,6 +52,11 @@ export class ProductsLocal implements OnInit {
     }
   }
   goToPage(page: number) {
+    if (this.seaarchTerm) {
+      console.log(this.seaarchTerm);
+      this.router.navigate(['/products', this.seaarchTerm, page, 10]);
+      return;
+    }
     if (this.categoryName) {
       this.router.navigate([
         '/products/category',
@@ -58,6 +70,10 @@ export class ProductsLocal implements OnInit {
     }
   }
   firstPage() {
+    if (this.seaarchTerm) {
+      this.router.navigate(['/products', this.seaarchTerm, 1, 10]);
+      return;
+    }
     if (this.categoryName) {
       this.router.navigate([
         '/products/category',
@@ -71,6 +87,10 @@ export class ProductsLocal implements OnInit {
     }
   }
   lastPage() {
+    if (this.seaarchTerm) {
+      this.router.navigate(['/products', this.seaarchTerm, this.totalPages, 10]);
+      return;
+    }
     if (this.categoryName) {
       this.router.navigate([
         '/products/category',
@@ -90,13 +110,7 @@ export class ProductsLocal implements OnInit {
     this.isLoading = true;
     this.productLocalService.getProductsByPage(page, pageSize).subscribe({
       next: (result) => {
-        this.page = page;
-        this.start = result.page;
-        this.products = result.products;
-        this.totalPages = Math.ceil(result.total / result.pageSize);
-        this.displayPageNumbers();
-
-        this.isLoading = false;
+        this.updateProducts(result, page);
       },
     });
   }
@@ -106,13 +120,7 @@ export class ProductsLocal implements OnInit {
     this.isLoading = true;
     this.productLocalService.getProductsByCategoryByPage(categoryId, page, pageSize).subscribe({
       next: (result) => {
-        this.page = page;
-        this.start = result.page;
-        this.products = result.products;
-        this.totalPages = Math.ceil(result.total / result.pageSize);
-        this.displayPageNumbers();
-
-        this.isLoading = false;
+        this.updateProducts(result, page);
       },
     });
   }
@@ -125,5 +133,24 @@ export class ProductsLocal implements OnInit {
         this.isLoading = false;
       },
     });
+  }
+  searchProductsByName(name: string) {
+    const page = Number(this.route.snapshot.paramMap.get('page'));
+    const pageSize = Number(this.route.snapshot.paramMap.get('pageSize'));
+    console.log(page, pageSize);
+    this.isLoading = true;
+    this.productLocalService.searchProductsByName(name, page, pageSize).subscribe({
+      next: (result) => {
+        this.updateProducts(result, page);
+      },
+    });
+  }
+  updateProducts(result: any, page: number) {
+    this.page = page;
+    this.start = result.page;
+    this.products = result.products;
+    this.totalPages = Math.ceil(result.total / result.pageSize);
+    this.displayPageNumbers();
+    this.isLoading = false;
   }
 }
