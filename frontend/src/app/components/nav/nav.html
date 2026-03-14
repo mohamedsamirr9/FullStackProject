@@ -123,7 +123,7 @@
             <ul class="sub-category">
               @for (category of categories; track $index) {
                 <li>
-                  <a [routerLink]="['/products/category', category.id, category.name]">{{
+                  <a [routerLink]="['/products/category', category.id, category.name, 1, 10]">{{
                     category.name
                   }}</a>
                 </li>

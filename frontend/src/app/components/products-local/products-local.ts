@@ -30,7 +30,7 @@ export class ProductsLocal implements OnInit {
       const categoryId = params.get('id');
       this.categoryName = params.get('name') || '';
       if (categoryId) {
-        this.getProductsByCategory(+categoryId);
+        this.getProductsByCategoryByPage(+categoryId);
       } else {
         this.getProductsByPage();
       }
@@ -45,13 +45,43 @@ export class ProductsLocal implements OnInit {
     }
   }
   goToPage(page: number) {
-    this.router.navigate(['/products', page, 10]);
+    if (this.categoryName) {
+      this.router.navigate([
+        '/products/category',
+        this.route.snapshot.paramMap.get('id'),
+        this.categoryName,
+        page,
+        10,
+      ]);
+    } else {
+      this.router.navigate(['/products', page, 10]);
+    }
   }
   firstPage() {
-    this.router.navigate(['/products', 1, 10]);
+    if (this.categoryName) {
+      this.router.navigate([
+        '/products/category',
+        this.route.snapshot.paramMap.get('id'),
+        this.categoryName,
+        1,
+        10,
+      ]);
+    } else {
+      this.router.navigate(['/products', 1, 10]);
+    }
   }
   lastPage() {
-    this.router.navigate(['/products', this.totalPages, 10]);
+    if (this.categoryName) {
+      this.router.navigate([
+        '/products/category',
+        this.route.snapshot.paramMap.get('id'),
+        this.categoryName,
+        this.totalPages,
+        10,
+      ]);
+    } else {
+      this.router.navigate(['/products', this.totalPages, 10]);
+    }
   }
 
   getProductsByPage() {
@@ -59,6 +89,22 @@ export class ProductsLocal implements OnInit {
     const pageSize = Number(this.route.snapshot.paramMap.get('pageSize'));
     this.isLoading = true;
     this.productLocalService.getProductsByPage(page, pageSize).subscribe({
+      next: (result) => {
+        this.page = page;
+        this.start = result.page;
+        this.products = result.products;
+        this.totalPages = Math.ceil(result.total / result.pageSize);
+        this.displayPageNumbers();
+
+        this.isLoading = false;
+      },
+    });
+  }
+  getProductsByCategoryByPage(categoryId: number) {
+    const page = Number(this.route.snapshot.paramMap.get('page'));
+    const pageSize = Number(this.route.snapshot.paramMap.get('pageSize'));
+    this.isLoading = true;
+    this.productLocalService.getProductsByCategoryByPage(categoryId, page, pageSize).subscribe({
       next: (result) => {
         this.page = page;
         this.start = result.page;

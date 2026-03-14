@@ -1,177 +1,185 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\",
+  "WorkspaceRootPath": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\mapping\\productsperpagemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\mapping\\productsperpagemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\mapping\\productwithcategorymapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\mapping\\productwithcategorymapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\mapping\\productmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\mapping\\productmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\dtos\\productsperpagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\mapping\\categoryproductsperpagemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\mapping\\categoryproductsperpagemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\mapping\\productsperpagemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\mapping\\productsperpagemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\mapping\\productwithcategorymapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\mapping\\productwithcategorymapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\dtos\\categoryproductsperpagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\dtos\\categoryproductsperpagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\dtos\\productsperpagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\dtos\\productsperpagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\dtos\\productwithcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\dtos\\productwithcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\dtos\\productwithcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\mapping\\productmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\mapping\\productmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\services\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\services\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\services\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\mapping\\cartwithproductsmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\mapping\\cartwithproductsmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\mapping\\cartwithproductsmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\dtos\\cartwithproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\dtos\\cartwithproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\dtos\\cartwithproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\dtos\\cartproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\dtos\\cartproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\dtos\\cartproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\repositories\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\repositories\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\repositories\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\models\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\models\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\models\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\migrations\\20260310115521_addcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\migrations\\20260310115521_addcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\migrations\\20260310115521_addcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\migrations\\20260308111103_addproductimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\migrations\\20260308111103_addproductimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\migrations\\20260308111103_addproductimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\webapiproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\webapiproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\webapiproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\webapi-cristen\\webapiproject\\webapiproject\\webapiproject.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|d:\\iti-4months-fullstack using .net\\graduationproject\\fullstackproject\\backend\\webapiproject\\webapiproject\\webapiproject.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{8A2E2EE3-EF91-4F5A-8644-14E041699815}|WebApiProject\\WebApiProject.csproj|solutionrelative:webapiproject\\webapiproject.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
@@ -182,15 +190,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "CategoryProductsPerPageMapping.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Mapping\\CategoryProductsPerPageMapping.cs",
+              "RelativeDocumentMoniker": "WebApiProject\\Mapping\\CategoryProductsPerPageMapping.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Mapping\\CategoryProductsPerPageMapping.cs",
+              "RelativeToolTip": "WebApiProject\\Mapping\\CategoryProductsPerPageMapping.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T11:01:38.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryProductsPerPageDTO.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\DTOs\\CategoryProductsPerPageDTO.cs",
+              "RelativeDocumentMoniker": "WebApiProject\\DTOs\\CategoryProductsPerPageDTO.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\DTOs\\CategoryProductsPerPageDTO.cs",
+              "RelativeToolTip": "WebApiProject\\DTOs\\CategoryProductsPerPageDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T10:59:51.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ProductsPerPageMapping.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Mapping\\ProductsPerPageMapping.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Mapping\\ProductsPerPageMapping.cs",
               "RelativeDocumentMoniker": "WebApiProject\\Mapping\\ProductsPerPageMapping.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Mapping\\ProductsPerPageMapping.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Mapping\\ProductsPerPageMapping.cs",
               "RelativeToolTip": "WebApiProject\\Mapping\\ProductsPerPageMapping.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAkwA4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -199,11 +233,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ProductsPerPageDTO.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\DTOs\\ProductsPerPageDTO.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\DTOs\\ProductsPerPageDTO.cs",
               "RelativeDocumentMoniker": "WebApiProject\\DTOs\\ProductsPerPageDTO.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\DTOs\\ProductsPerPageDTO.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\DTOs\\ProductsPerPageDTO.cs",
               "RelativeToolTip": "WebApiProject\\DTOs\\ProductsPerPageDTO.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -212,11 +246,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "CartWithProductsMapping.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Mapping\\CartWithProductsMapping.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Mapping\\CartWithProductsMapping.cs",
               "RelativeDocumentMoniker": "WebApiProject\\Mapping\\CartWithProductsMapping.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Mapping\\CartWithProductsMapping.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Mapping\\CartWithProductsMapping.cs",
               "RelativeToolTip": "WebApiProject\\Mapping\\CartWithProductsMapping.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAwBcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -224,11 +258,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "CartProductDTO.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\DTOs\\CartProductDTO.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\DTOs\\CartProductDTO.cs",
               "RelativeDocumentMoniker": "WebApiProject\\DTOs\\CartProductDTO.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\DTOs\\CartProductDTO.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\DTOs\\CartProductDTO.cs",
               "RelativeToolTip": "WebApiProject\\DTOs\\CartProductDTO.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAzwA4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -236,11 +270,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "CartWithProducts.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\DTOs\\CartWithProducts.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\DTOs\\CartWithProducts.cs",
               "RelativeDocumentMoniker": "WebApiProject\\DTOs\\CartWithProducts.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\DTOs\\CartWithProducts.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\DTOs\\CartWithProducts.cs",
               "RelativeToolTip": "WebApiProject\\DTOs\\CartWithProducts.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -248,11 +282,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "CartItemDTO.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\DTOs\\CartItemDTO.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\DTOs\\CartItemDTO.cs",
               "RelativeDocumentMoniker": "WebApiProject\\DTOs\\CartItemDTO.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\DTOs\\CartItemDTO.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\DTOs\\CartItemDTO.cs",
               "RelativeToolTip": "WebApiProject\\DTOs\\CartItemDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -260,50 +294,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "CartController.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Controllers\\CartController.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "WebApiProject\\Controllers\\CartController.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Controllers\\CartController.cs",
               "RelativeToolTip": "WebApiProject\\Controllers\\CartController.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAkwDMAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T13:27:23.195Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CartService.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Services\\CartService.cs",
-              "RelativeDocumentMoniker": "WebApiProject\\Services\\CartService.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Services\\CartService.cs",
-              "RelativeToolTip": "WebApiProject\\Services\\CartService.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAIAwwEkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T13:25:52.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T13:27:23.195Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "ICartService.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Services\\ICartService.cs",
-              "RelativeDocumentMoniker": "WebApiProject\\Services\\ICartService.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Services\\ICartService.cs",
-              "RelativeToolTip": "WebApiProject\\Services\\ICartService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
+              "Title": "CartService.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "WebApiProject\\Services\\CartService.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Services\\CartService.cs",
+              "RelativeToolTip": "WebApiProject\\Services\\CartService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAIAwwEkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T13:24:13.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T13:25:52.786Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 14,
+              "Title": "ICartService.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Services\\ICartService.cs",
+              "RelativeDocumentMoniker": "WebApiProject\\Services\\ICartService.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Services\\ICartService.cs",
+              "RelativeToolTip": "WebApiProject\\Services\\ICartService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T13:24:13.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
               "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Repositories\\ICategoryRepository.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Repositories\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "WebApiProject\\Repositories\\ICategoryRepository.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Repositories\\ICategoryRepository.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Repositories\\ICategoryRepository.cs",
               "RelativeToolTip": "WebApiProject\\Repositories\\ICategoryRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -311,11 +342,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "ICartRepository.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Repositories\\ICartRepository.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Repositories\\ICartRepository.cs",
               "RelativeDocumentMoniker": "WebApiProject\\Repositories\\ICartRepository.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Repositories\\ICartRepository.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Repositories\\ICartRepository.cs",
               "RelativeToolTip": "WebApiProject\\Repositories\\ICartRepository.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -323,24 +354,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "CartRepository.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Repositories\\CartRepository.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Repositories\\CartRepository.cs",
               "RelativeDocumentMoniker": "WebApiProject\\Repositories\\CartRepository.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Repositories\\CartRepository.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Repositories\\CartRepository.cs",
               "RelativeToolTip": "WebApiProject\\Repositories\\CartRepository.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAAUwDUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T12:32:50.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T12:32:50.778Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "20260310115521_addCart.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Migrations\\20260310115521_addCart.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Migrations\\20260310115521_addCart.cs",
               "RelativeDocumentMoniker": "WebApiProject\\Migrations\\20260310115521_addCart.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Migrations\\20260310115521_addCart.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Migrations\\20260310115521_addCart.cs",
               "RelativeToolTip": "WebApiProject\\Migrations\\20260310115521_addCart.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -348,11 +378,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "CartItem.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Models\\CartItem.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Models\\CartItem.cs",
               "RelativeDocumentMoniker": "WebApiProject\\Models\\CartItem.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Models\\CartItem.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Models\\CartItem.cs",
               "RelativeToolTip": "WebApiProject\\Models\\CartItem.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAUwAUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -360,11 +390,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "Cart.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Models\\Cart.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Models\\Cart.cs",
               "RelativeDocumentMoniker": "WebApiProject\\Models\\Cart.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Models\\Cart.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Models\\Cart.cs",
               "RelativeToolTip": "WebApiProject\\Models\\Cart.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -374,22 +404,22 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "IProductRepository.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Repositories\\IProductRepository.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Repositories\\IProductRepository.cs",
               "RelativeDocumentMoniker": "WebApiProject\\Repositories\\IProductRepository.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Repositories\\IProductRepository.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Repositories\\IProductRepository.cs",
               "RelativeToolTip": "WebApiProject\\Repositories\\IProductRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAwwAgAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwAoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-09T10:14:06.302Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Repositories\\CategoryRepository.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Repositories\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "WebApiProject\\Repositories\\CategoryRepository.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Repositories\\CategoryRepository.cs",
               "RelativeToolTip": "WebApiProject\\Repositories\\CategoryRepository.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -397,50 +427,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Controllers\\ProductController.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "WebApiProject\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "WebApiProject\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAwBkAAAA+AAAAAAAAAA==",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Controllers\\ProductController.cs*",
+              "RelativeToolTip": "WebApiProject\\Controllers\\ProductController.cs*",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAwCIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-08T15:33:14.791Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ProductService.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Services\\ProductService.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "WebApiProject\\Services\\ProductService.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Services\\ProductService.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Services\\ProductService.cs",
               "RelativeToolTip": "WebApiProject\\Services\\ProductService.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwBwAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCIAAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-08T15:32:01.968Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "IProductService.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Services\\IProductService.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Services\\IProductService.cs",
               "RelativeDocumentMoniker": "WebApiProject\\Services\\IProductService.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Services\\IProductService.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Services\\IProductService.cs",
               "RelativeToolTip": "WebApiProject\\Services\\IProductService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAYwA4AAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wAsAAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-08T15:31:29.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ProductWithCategoryMapping.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Mapping\\ProductWithCategoryMapping.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Mapping\\ProductWithCategoryMapping.cs",
               "RelativeDocumentMoniker": "WebApiProject\\Mapping\\ProductWithCategoryMapping.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Mapping\\ProductWithCategoryMapping.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Mapping\\ProductWithCategoryMapping.cs",
               "RelativeToolTip": "WebApiProject\\Mapping\\ProductWithCategoryMapping.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAuwBEAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -449,37 +479,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ProductWithCategoryDTO.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\DTOs\\ProductWithCategoryDTO.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\DTOs\\ProductWithCategoryDTO.cs",
               "RelativeDocumentMoniker": "WebApiProject\\DTOs\\ProductWithCategoryDTO.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\DTOs\\ProductWithCategoryDTO.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\DTOs\\ProductWithCategoryDTO.cs",
               "RelativeToolTip": "WebApiProject\\DTOs\\ProductWithCategoryDTO.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAuwAsAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-08T15:22:09.793Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ProductRepository.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Repositories\\ProductRepository.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "WebApiProject\\Repositories\\ProductRepository.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Repositories\\ProductRepository.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Repositories\\ProductRepository.cs",
               "RelativeToolTip": "WebApiProject\\Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAEwDkAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAawD8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-08T15:06:20.377Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "DbSeeder.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Models\\DbSeeder.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Models\\DbSeeder.cs",
               "RelativeDocumentMoniker": "WebApiProject\\Models\\DbSeeder.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Models\\DbSeeder.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Models\\DbSeeder.cs",
               "RelativeToolTip": "WebApiProject\\Models\\DbSeeder.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -487,11 +517,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "20260308111103_addProductImage.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Migrations\\20260308111103_addProductImage.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Migrations\\20260308111103_addProductImage.cs",
               "RelativeDocumentMoniker": "WebApiProject\\Migrations\\20260308111103_addProductImage.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Migrations\\20260308111103_addProductImage.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Migrations\\20260308111103_addProductImage.cs",
               "RelativeToolTip": "WebApiProject\\Migrations\\20260308111103_addProductImage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -499,11 +529,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "IAuthService.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Services\\IAuthService.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Services\\IAuthService.cs",
               "RelativeDocumentMoniker": "WebApiProject\\Services\\IAuthService.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Services\\IAuthService.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Services\\IAuthService.cs",
               "RelativeToolTip": "WebApiProject\\Services\\IAuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -511,11 +541,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "LoginDTO.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\DTOs\\LoginDTO.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\DTOs\\LoginDTO.cs",
               "RelativeDocumentMoniker": "WebApiProject\\DTOs\\LoginDTO.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\DTOs\\LoginDTO.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\DTOs\\LoginDTO.cs",
               "RelativeToolTip": "WebApiProject\\DTOs\\LoginDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -523,11 +553,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "WebApiProject\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Controllers\\AuthController.cs",
               "RelativeToolTip": "WebApiProject\\Controllers\\AuthController.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAYwBkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -535,11 +565,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "AuthService.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Services\\AuthService.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "WebApiProject\\Services\\AuthService.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Services\\AuthService.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Services\\AuthService.cs",
               "RelativeToolTip": "WebApiProject\\Services\\AuthService.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAgwCwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -547,11 +577,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "RegisterDTO.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\DTOs\\RegisterDTO.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\DTOs\\RegisterDTO.cs",
               "RelativeDocumentMoniker": "WebApiProject\\DTOs\\RegisterDTO.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\DTOs\\RegisterDTO.cs",
               "RelativeToolTip": "WebApiProject\\DTOs\\RegisterDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -559,11 +589,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Models\\ApplicationUser.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "WebApiProject\\Models\\ApplicationUser.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Models\\ApplicationUser.cs",
               "RelativeToolTip": "WebApiProject\\Models\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -571,11 +601,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "CategoryService.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Services\\CategoryService.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Services\\CategoryService.cs",
               "RelativeDocumentMoniker": "WebApiProject\\Services\\CategoryService.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Services\\CategoryService.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Services\\CategoryService.cs",
               "RelativeToolTip": "WebApiProject\\Services\\CategoryService.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAgwCUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -583,11 +613,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "ICategoryService.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Services\\ICategoryService.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Services\\ICategoryService.cs",
               "RelativeDocumentMoniker": "WebApiProject\\Services\\ICategoryService.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Services\\ICategoryService.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Services\\ICategoryService.cs",
               "RelativeToolTip": "WebApiProject\\Services\\ICategoryService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -595,24 +625,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "ProductMapping.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Mapping\\ProductMapping.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Mapping\\ProductMapping.cs",
               "RelativeDocumentMoniker": "WebApiProject\\Mapping\\ProductMapping.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Mapping\\ProductMapping.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Mapping\\ProductMapping.cs",
               "RelativeToolTip": "WebApiProject\\Mapping\\ProductMapping.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwAkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T09:55:42.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-02T09:55:42.949Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "IRepository.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Repositories\\IRepository.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Repositories\\IRepository.cs",
               "RelativeDocumentMoniker": "WebApiProject\\Repositories\\IRepository.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Repositories\\IRepository.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Repositories\\IRepository.cs",
               "RelativeToolTip": "WebApiProject\\Repositories\\IRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -620,11 +649,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "CategoryController.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Controllers\\CategoryController.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "WebApiProject\\Controllers\\CategoryController.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "WebApiProject\\Controllers\\CategoryController.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAkwBkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -632,22 +661,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "WebApiProject",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\WebApiProject.csproj",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\WebApiProject.csproj",
               "RelativeDocumentMoniker": "WebApiProject\\WebApiProject.csproj",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\WebApiProject.csproj",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\WebApiProject.csproj",
               "RelativeToolTip": "WebApiProject\\WebApiProject.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-02-22T22:53:02.749Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "WebApiProject.csproj",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\WebApiProject.csproj",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\WebApiProject.csproj",
               "RelativeDocumentMoniker": "WebApiProject\\WebApiProject.csproj",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\WebApiProject.csproj",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\WebApiProject.csproj",
               "RelativeToolTip": "WebApiProject\\WebApiProject.csproj",
               "ViewState": "AgIAAAIAAAAAAAAAAABRwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -655,11 +684,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Program.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Program.cs",
               "RelativeDocumentMoniker": "WebApiProject\\Program.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Program.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Program.cs",
               "RelativeToolTip": "WebApiProject\\Program.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAAkwEEAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -667,11 +696,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\appsettings.json",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\appsettings.json",
               "RelativeDocumentMoniker": "WebApiProject\\appsettings.json",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\appsettings.json",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\appsettings.json",
               "RelativeToolTip": "WebApiProject\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -679,11 +708,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Models\\AppDbContext.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Models\\AppDbContext.cs",
               "RelativeDocumentMoniker": "WebApiProject\\Models\\AppDbContext.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Models\\AppDbContext.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Models\\AppDbContext.cs",
               "RelativeToolTip": "WebApiProject\\Models\\AppDbContext.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAcwAgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -691,11 +720,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Product.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Models\\Product.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Models\\Product.cs",
               "RelativeDocumentMoniker": "WebApiProject\\Models\\Product.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Models\\Product.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Models\\Product.cs",
               "RelativeToolTip": "WebApiProject\\Models\\Product.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAwwAsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -703,11 +732,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "Category.cs",
-              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Models\\Category.cs",
+              "DocumentMoniker": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Models\\Category.cs",
               "RelativeDocumentMoniker": "WebApiProject\\Models\\Category.cs",
-              "ToolTip": "D:\\iti-4months-fullstack using .net\\WebApi-Cristen\\WebApiProject\\WebApiProject\\Models\\Category.cs",
+              "ToolTip": "D:\\iti-4months-fullstack using .net\\GraduationProject\\FullStackProject\\backend\\WebApiProject\\WebApiProject\\Models\\Category.cs",
               "RelativeToolTip": "WebApiProject\\Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
