@@ -33,6 +33,10 @@ namespace WebApiProject.Repositories
         {
             return context.Products.Where(p =>  p.CategoryId == id).ToList();
         }
+        public List<Product> GetCategoryProductsPerPages(int id, int page, int pageSize)
+        {
+            return context.Products.Where(p => p.CategoryId == id).Skip((page - 1) * pageSize).Take(pageSize).ToList();
+        }
 
         public Product GetById(int id)
         {
@@ -56,6 +60,10 @@ namespace WebApiProject.Repositories
         public int GetTotalCount()
         {        
             return context.Products.Count();
+        }
+        public int GetCategoryCount(int id)
+        {
+            return GetProductsByCategory(id).Count();
         }
     }
 }

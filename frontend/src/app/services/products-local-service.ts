@@ -17,4 +17,7 @@ export class ProductsLocalService {
   getProductsByPage(page: number, pageSize: number): Observable<any> {
     return this.httpClient.get<any>(`${API_URLS2.getProducts}/${page}/${pageSize}`);
   }
+  getProductsByCategoryByPage(id: number, page: number, pageSize: number): Observable<any> {
+    return this.httpClient.get<any>(`${API_URLS2.getProductsByCategory}/${id}/${page}/${pageSize}`);
+  }
 }

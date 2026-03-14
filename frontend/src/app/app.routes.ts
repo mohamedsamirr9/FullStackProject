@@ -18,7 +18,7 @@ export const routes: Routes = [
     component: ProductsLocal,
   },
   {
-    path: 'products/category/:id/:name',
+    path: 'products/category/:id/:name/:page/:pageSize',
     component: ProductsLocal,
   },
   {

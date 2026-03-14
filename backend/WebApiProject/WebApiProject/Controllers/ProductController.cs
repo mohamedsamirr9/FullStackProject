@@ -32,6 +32,12 @@ namespace WebApiProject.Controllers
             List<Product> products = productService.GetProductsByCategory(id);
             return Ok(products);
         }
+        [HttpGet("category/{id}/{page}/{pageSize}")]
+        public IActionResult FilterProductsByCategoryByPage(int id, int page = 1, int pageSize = 10)
+        {
+            var products = productService.GetCategoryProductsPerPage(id,page,pageSize);
+            return Ok(products);
+        }
         [HttpGet]
         [Route("{id}")]
         public IActionResult GetProduct(int id) {

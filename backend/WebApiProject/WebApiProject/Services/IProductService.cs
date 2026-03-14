@@ -9,6 +9,7 @@ namespace WebApiProject.Services
         List<Product> GetProductsByCategory(int id);  
         ProductWithCategoryDTO  GetById(int id);
         ProductsPerPageDTO GetProductsPerPages(int page, int pageSize);
+        CategoryProductsPerPageDTO GetCategoryProductsPerPage(int id, int page, int pageSize);
         void Add(Product product);
         void Update(Product product);
         void Delete(int id);
