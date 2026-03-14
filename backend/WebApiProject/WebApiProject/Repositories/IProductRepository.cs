@@ -9,7 +9,8 @@ namespace WebApiProject.Repositories
         List<Product>  GetCategoryProductsPerPages (int id , int page, int pageSize);
         int GetTotalCount();
         int GetCategoryCount(int id);
-
+        List<Product> SearchByProductName(string name, int page, int pageSize);
+        int GetSearchCount(string name);
 
     }
 }

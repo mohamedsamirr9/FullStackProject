@@ -65,5 +65,13 @@ namespace WebApiProject.Repositories
         {
             return GetProductsByCategory(id).Count();
         }
+        public List<Product> SearchByProductName(string name,int page, int pageSize)
+        {
+            return context.Products.Where(p => p.Name.Contains(name)).Skip((page-1)*pageSize).Take(pageSize).ToList();
+        }
+        public int GetSearchCount(string name)
+        {
+            return context.Products.Where(p => p.Name.Contains(name)).Count();
+        }
     }
 }

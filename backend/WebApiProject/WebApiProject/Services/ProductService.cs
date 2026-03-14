@@ -32,13 +32,19 @@ namespace WebApiProject.Services
             int total = _productRepository.GetTotalCount();
             return products.toProductsPerPage(page,pageSize,total);
         }
-        public CategoryProductsPerPageDTO GetCategoryProductsPerPage(int id,int page , int pageSize)
+        public ProductsPerPageDTO GetCategoryProductsPerPage(int id,int page , int pageSize)
         {
             var products = _productRepository.GetCategoryProductsPerPages(id,page,pageSize);
             var total = _productRepository.GetCategoryCount(id);
-            return products.toCategoryProducts(page,pageSize,total);
+            return products.toProductsPerPage(page,pageSize,total);
         }
+        public ProductsPerPageDTO SearchByName(string name, int page, int pageSize)
+        {
+            var products = _productRepository.SearchByProductName(name,page,pageSize);
+            var total = _productRepository.GetSearchCount(name);
+            return products.toProductsPerPage(page,pageSize,total);
 
+        }
         public ProductWithCategoryDTO GetById(int id)
         {
             var product = _productRepository.GetById(id);

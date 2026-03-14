@@ -38,6 +38,11 @@ namespace WebApiProject.Controllers
             var products = productService.GetCategoryProductsPerPage(id,page,pageSize);
             return Ok(products);
         }
+        [HttpGet("{name}/{page}/{pageSize}")]
+        public IActionResult SearchByName(string name, int page = 1, int pageSize = 10) { 
+            var products = productService.SearchByName(name,page,pageSize);
+            return Ok(products);
+        }
         [HttpGet]
         [Route("{id}")]
         public IActionResult GetProduct(int id) {
