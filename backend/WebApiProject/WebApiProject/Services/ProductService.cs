@@ -12,8 +12,17 @@ namespace WebApiProject.Services
         public ProductService(IProductRepository productRepository) {
             _productRepository = productRepository;
         }
-        public void Add(Product product)
+        public void Add(ProductAdminDTO productAdminDTO)
         {
+            string? imageUrl = null;
+            var fileName = $"{Guid.NewGuid()}{Path.GetExtension(productAdminDTO.imageUrl.FileName)}"; 
+            var folderPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/products");
+            var path = Path.Combine(folderPath, fileName);
+
+            using var stream = new FileStream(path, FileMode.Create);
+            productAdminDTO.imageUrl.CopyTo(stream);
+            imageUrl = $"/images/products/{fileName}";
+            var product = productAdminDTO.toAdminProduct(imageUrl);
             _productRepository.Add(product);
         }
 
@@ -61,8 +70,37 @@ namespace WebApiProject.Services
             return _productRepository.Save();
         }
 
-        public void Update(Product product)
+        public void Update(ProductAdminDTO productAdminDTO,int Id)
         {
+           var product =  _productRepository.GetById(Id);
+            string? imageUrl = null;
+            if (productAdminDTO.imageUrl != null)
+            {
+                var folderPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/products");
+                if (!string.IsNullOrEmpty(product.imageUrl))
+                {
+                    var oldImagePath = Path.Combine(
+                        Directory.GetCurrentDirectory(),
+                        "wwwroot",
+                        product.imageUrl.TrimStart('/')
+                    );
+
+                    if (File.Exists(oldImagePath))
+                        File.Delete(oldImagePath);
+                }
+                var fileName = $"{Guid.NewGuid()}{Path.GetExtension(productAdminDTO.imageUrl.FileName)}";
+                var newPath = Path.Combine(folderPath, fileName);
+
+                if (!Directory.Exists(folderPath))
+                    Directory.CreateDirectory(folderPath);
+
+                using var stream = new FileStream(newPath, FileMode.Create);
+                productAdminDTO.imageUrl.CopyTo(stream);
+
+                imageUrl = $"/images/products/{fileName}";
+            }
+
+            product.UpdateFromDto(productAdminDTO, imageUrl);
             _productRepository.Update(product);
         }
     }

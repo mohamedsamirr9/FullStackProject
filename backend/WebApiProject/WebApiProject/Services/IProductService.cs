@@ -11,8 +11,8 @@ namespace WebApiProject.Services
         ProductsPerPageDTO GetProductsPerPages(int page, int pageSize);
         ProductsPerPageDTO GetCategoryProductsPerPage(int id, int page, int pageSize);
         ProductsPerPageDTO SearchByName(string name, int page, int pageSize);
-        void Add(Product product);
-        void Update(Product product);
+        void Add(ProductAdminDTO productAdminDTO);
+        void Update(ProductAdminDTO productAdminDTO, int Id);
         void Delete(int id);
         int Save();
 

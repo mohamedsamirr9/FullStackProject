@@ -53,10 +53,10 @@ namespace WebApiProject.Controllers
             return Ok(product);
         }
         [HttpPost]
-        public IActionResult AddProduct(Product product) {
-            productService.Add(product);
+        public IActionResult AddProduct([FromForm]ProductAdminDTO productAdminDTO) {
+             productService.Add(productAdminDTO);
             productService.Save();
-            return CreatedAtAction("GetProduct", new { id = product.Id }, product);
+            return Ok(new { message = "Product created successfully!" });
         }
         [HttpDelete("{id}")]
         public IActionResult DeleteProduct(int id) {
@@ -70,12 +70,12 @@ namespace WebApiProject.Controllers
             return NoContent();
         }
         [HttpPut]
-        public IActionResult UpdateProduct(Product product) { 
-            var p =  productService.GetById(product.Id);
+        public IActionResult UpdateProduct([FromForm] ProductAdminDTO productAdminDTO,int Id ) { 
+            var p =  productService.GetById(Id);
             if (p == null) {
                 return NotFound();
             }
-            productService.Update(product);
+            productService.Update(productAdminDTO,Id);
             productService.Save();
             return NoContent();
         }

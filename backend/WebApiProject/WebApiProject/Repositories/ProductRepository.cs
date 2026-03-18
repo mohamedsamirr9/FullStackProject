@@ -50,11 +50,8 @@ namespace WebApiProject.Repositories
 
         public void Update(Product obj)
         {
-            Product product = GetById(obj.Id);
-            product.Name = obj.Name;
-            product.Description = obj.Description;
-            product.Price = obj.Price;
-            product.CategoryId = obj.CategoryId;
+            context.Products.Update(obj);
+
         }
 
         public int GetTotalCount()

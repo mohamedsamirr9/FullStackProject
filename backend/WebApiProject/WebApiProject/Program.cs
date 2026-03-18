@@ -101,7 +101,7 @@ namespace WebApiProject
             app.UseAuthentication();
             app.UseAuthorization();
             app.UseCors("MyCors");
-
+            app.UseStaticFiles(); 
 
             app.MapControllers();
 
