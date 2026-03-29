@@ -1,0 +1,64 @@
+<div class="admin-wrapper" [class.sidebar-collapsed]="sidebarCollapsed">
+  <!-- Sidebar -->
+  <aside class="admin-sidebar">
+    <div class="sidebar-header">
+      <h2 class="sidebar-brand">
+        <span class="brand-icon">⚙</span>
+        <span class="brand-text">Admin Panel</span>
+      </h2>
+    </div>
+
+    <nav class="sidebar-nav">
+      <ul>
+        <li>
+          <a routerLink="/admin/dashboard" routerLinkActive="active">
+            <span class="nav-icon">📊</span>
+            <span class="nav-text">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a routerLink="/admin/products" routerLinkActive="active">
+            <span class="nav-icon">📦</span>
+            <span class="nav-text">Products</span>
+          </a>
+        </li>
+        <li>
+          <a routerLink="/admin/orders" routerLinkActive="active">
+            <span class="nav-icon">🛒</span>
+            <span class="nav-text">Orders</span>
+          </a>
+        </li>
+        <li>
+          <a routerLink="/admin/users" routerLinkActive="active">
+            <span class="nav-icon">👥</span>
+            <span class="nav-text">Users</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="sidebar-footer">
+      <a routerLink="/" class="back-to-store">
+        <span class="nav-icon">🏠</span>
+        <span class="nav-text">Back to Store</span>
+      </a>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <div class="admin-main">
+    <!-- Top Navbar -->
+    <header class="admin-navbar">
+      <button class="toggle-btn" (click)="toggleSidebar()">☰</button>
+      <div class="navbar-right">
+        <span class="admin-badge">Admin</span>
+        <button class="logout-btn" (click)="logout()">Logout</button>
+      </div>
+    </header>
+
+    <!-- Page Content -->
+    <main class="admin-content">
+      <router-outlet></router-outlet>
+    </main>
+  </div>
+</div>
