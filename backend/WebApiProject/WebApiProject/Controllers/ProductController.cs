@@ -69,18 +69,18 @@ namespace WebApiProject.Controllers
             productService.Save();
             return NoContent();
         }
-        [HttpPut]
-        public IActionResult UpdateProduct([FromForm] ProductAdminDTO productAdminDTO,int Id ) { 
-            var p =  productService.GetById(Id);
+        [HttpPut("{id}")]
+        public IActionResult UpdateProduct(int id, [FromForm] ProductAdminDTO productAdminDTO)
+        { 
+            var p =  productService.GetById(id);
             if (p == null) {
                 return NotFound();
             }
-            productService.Update(productAdminDTO,Id);
+            productService.Update(productAdminDTO,id);
             productService.Save();
-            return NoContent();
+            return Ok(new { message = "Product updated successfully" });
         }
-        //[HttpPut]
-        //public IActionResult UpdateProduct(Product product) { }
+        
 
     }
 }

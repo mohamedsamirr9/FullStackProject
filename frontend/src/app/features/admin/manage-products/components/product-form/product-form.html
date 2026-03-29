@@ -1,0 +1,93 @@
+<div class="product-form-container">
+  <div class="form-header">
+    <h2>{{ isEditMode ? 'Edit Product' : 'Add New Product' }}</h2>
+    <p class="subtitle">{{ isEditMode ? 'Update the details of the existing product below.' : 'Fill in the forms to add a new product to your catalog.' }}</p>
+  </div>
+
+  @if (isLoading) {
+    <div class="loading-state">
+      <div class="spinner"></div>
+      <p>Loading product details...</p>
+    </div>
+  } @else {
+
+    @if (errorMessage) {
+      <div class="error-state">
+        <p>{{ errorMessage }}</p>
+      </div>
+    }
+
+    <form [formGroup]="productForm" (ngSubmit)="onSubmit()" class="admin-form">
+      <div class="form-row">
+        <div class="form-group flex-1">
+          <label for="name">Product Name <span class="required">*</span></label>
+          <input type="text" id="name" formControlName="name" placeholder="E.g. Wireless Mouse" />
+          @if (f['name'].touched && f['name'].invalid) {
+            <small class="error">Product name is required.</small>
+          }
+        </div>
+
+        <div class="form-group flex-1">
+          <label for="categoryId">Category <span class="required">*</span></label>
+          <select id="categoryId" formControlName="categoryId">
+            <option value="" disabled>Select Category</option>
+            @for (category of categories; track category.id) {
+              <option [value]="category.id">
+                {{ category.name }}
+              </option>
+            }
+          </select>
+          @if (f['categoryId'].touched && f['categoryId'].invalid) {
+            <small class="error">Please select a valid category.</small>
+          }
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="description">Description (Optional)</label>
+        <textarea id="description" formControlName="description" rows="3" placeholder="Detailed product description..."></textarea>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group flex-1">
+          <label for="price">Price (EGP) <span class="required">*</span></label>
+          <input type="number" id="price" formControlName="price" min="0" step="0.01" placeholder="0.00" />
+          @if (f['price'].touched && f['price'].invalid) {
+            <small class="error">Price must be a valid positive number.</small>
+          }
+        </div>
+
+        <div class="form-group flex-1">
+          <label for="quantity">Stock Quantity <span class="required">*</span></label>
+          <input type="number" id="quantity" formControlName="quantity" min="0" step="1" placeholder="0" />
+          @if (f['quantity'].touched && f['quantity'].invalid) {
+            <small class="error">Quantity must be 0 or greater.</small>
+          }
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="imageUrl">Product Image <span *ngIf="!isEditMode" class="required">*</span></label>
+        <div class="file-input-wrapper">
+          <input type="file" id="imageUrl" (change)="onFileSelected($event)" accept="image/*" />
+          <small class="helper-text" *ngIf="isEditMode">Leave empty to keep the existing image.</small>
+        </div>
+        @if (f['imageUrl'].touched && f['imageUrl'].errors?.['required']) {
+          <small class="error">Image file is required when adding a new product.</small>
+        }
+      </div>
+
+      <div class="actions">
+        <button type="button" class="btn-cancel" (click)="cancel()">Cancel</button>
+        <button type="submit" class="btn-submit" [disabled]="productForm.invalid || isSubmitting">
+          @if (isSubmitting) {
+            <span class="spinner-small"></span> processing...
+          } @else {
+            {{ isEditMode ? 'Save Changes' : 'Create Product' }}
+          }
+        </button>
+      </div>
+    </form>
+
+  }
+</div>

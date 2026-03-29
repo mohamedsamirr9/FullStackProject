@@ -1,0 +1,85 @@
+<div class="manage-products-container">
+  <div class="header">
+    <h2>Manage Products</h2>
+    <button class="btn-add" (click)="addProduct()">+ Add Product</button>
+  </div>
+
+  <!-- Loading State -->
+  @if (isLoading) {
+    <div class="loading-state">
+      <div class="spinner"></div>
+      <p>Loading products...</p>
+    </div>
+  }
+
+  <!-- Error State -->
+  @if (errorMessage) {
+    <div class="error-state">
+      <p>{{ errorMessage }}</p>
+      <button class="btn-retry" (click)="loadProducts()">Retry</button>
+    </div>
+  }
+
+  <!-- Product Table -->
+  @if (!isLoading && !errorMessage) {
+    @if (products.length === 0) {
+      <div class="empty-state">
+        <p>No products found. Click "Add Product" to create one.</p>
+      </div>
+    } @else {
+      <table>
+        <thead>
+          <tr>
+            <th>Image</th>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Qty</th>
+            <th>Category</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (product of pagedProducts; track product.id) {
+            <tr>
+              <td>
+                @if (product.imageUrl) {
+                  <img
+                    [src]="getImageUrl(product.imageUrl)"
+                    alt="{{ product.name }}"
+                    class="product-thumb"
+                  />
+                } @else {
+                  <span class="no-image">—</span>
+                }
+              </td>
+              <td>{{ product.id }}</td>
+              <td class="td-name">{{ product.name }}</td>
+              <td>{{ product.price | currency: 'EGP' }}</td>
+              <td>
+                <span
+                  class="qty-badge"
+                  [class.low-stock]="product.quantity <= 5"
+                  [class.out-of-stock]="product.quantity === 0"
+                >
+                  {{ product.quantity }}
+                </span>
+              </td>
+              <td>{{ getCategoryName(product) }}</td>
+              <td class="actions-cell">
+                <button class="btn-edit" (click)="editProduct(product)">Edit</button>
+                <button class="btn-delete" (click)="deleteProduct(product.id)">Delete</button>
+              </td>
+            </tr>
+          }
+        </tbody>
+      </table>
+
+      <div class="pagination">
+        <button (click)="prevPage()" [disabled]="page === 1">Previous</button>
+        <span>Page {{ page }} / {{ totalPages }}</span>
+        <button (click)="nextPage()" [disabled]="page === totalPages">Next</button>
+      </div>
+    }
+  }
+</div>

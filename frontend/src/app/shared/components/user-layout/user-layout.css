@@ -1,0 +1,6 @@
+/* User layout takes full height */
+:host {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
